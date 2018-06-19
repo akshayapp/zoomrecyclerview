@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+<!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:orientation="vertical"-->
+
+    <!--android:gravity="bottom"-->
+    <!--android:layout_weight=".5"-->
+    <!--android:layout_height="match_parent">-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""
+        android:maxWidth="30dp"
+        android:gravity="center"
+
+        android:layout_marginRight="5dp"
+        android:background="@mipmap/moment_icon"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/momentcount"/>
+
+    <View
+        android:layout_width="2dp"
+        android:maxWidth="2dp"
+        android:layout_marginRight="5dp"
+        android:background="#000000"
+        android:id="@+id/moment_view1"
+        android:visibility="gone"
+        android:layout_height="30dp"></View>
+    <View
+        android:layout_width="2dp"
+        android:maxWidth="2dp"
+        android:layout_marginRight="5dp"
+        android:background="#000000"
+        android:id="@+id/moment_view"
+        android:layout_height="90dp"></View>
+
+
+<!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="edit"
+
+            android:paddingTop="5dp"
+
+            android:background="@drawable/rectangle1"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:minWidth="100dp"
+
+            android:textSize="15dp"
+            android:id="@+id/txtview"/>
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_weight=".5"-->
+        <!--android:layout_height="match_parent">-->
+    <View
+        android:layout_width="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:id="@+id/subtimeline_view1"
+        android:maxWidth="2dp"
+        android:visibility="gone"
+        android:layout_height="30dp"></View>
+    <View
+        android:layout_width="2dp"
+        android:layout_marginLeft="5dp"
+        android:maxWidth="2dp"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:id="@+id/subtimeline_view"
+
+        android:layout_height="90dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxWidth="20dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="8"
+
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/subtimeline_icon"
+            android:textSize="10dp"
+            android:id="@+id/subtimelinecount"/>
+    <!--</LinearLayout>-->
+
+</LinearLayout>
